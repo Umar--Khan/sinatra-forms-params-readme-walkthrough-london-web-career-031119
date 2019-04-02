@@ -7,6 +7,8 @@ class App < Sinatra::Base
   end
 
   # Add your post route and action below
+  
+  # ! Below you can link a parameter from a html form
 
   post '/food' do
     "My name is #{params[:name]}, and I love #{params[:favorite_food]}"
